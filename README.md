@@ -6,7 +6,7 @@ Import libraries:
 import java.util.Scanner;
 import java.util.*;
 
-
+```
 public class Animal {
   // the following is known as a field (or variable), aka attribute. Can start with a letter,$,_
   private String name;
@@ -31,3 +31,4 @@ string: string of characters
 int: an integer
 boolean: T/F
 protected: only available within this code area; scope
+```
