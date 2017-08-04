@@ -34,6 +34,7 @@ public class Animal {
   // this is how to execute the code above. This gets called first. You can run this on the command line:
   public static void main(String [] args){
       Animal theAnimal = new Animal()
+      // will print out 5 + 1 = 6
   }
 
   }
