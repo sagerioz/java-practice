@@ -21,7 +21,7 @@ public class Animal {
   protected static int numberOfAnimals;
 
   // this allows user input from the keyboard
-  static Scanner userinput = new Scanner(system.in);
+  static Scanner userInput = new Scanner(system.in);
 
   // this is a constructor example:
   public Animal(){
@@ -29,6 +29,25 @@ public class Animal {
 
       int sumOfNumbers = 5 + 1;
       System.out.println = ("5 + 1 = " + sumOfNumbers)
+
+      System.out.print("Enter the name: \n");
+
+      /* more booleans like hasNextLine:
+      hasNextInt,
+      hasNextFloat,
+      hasNextDouble,
+      hasNextByte,
+      nextInt,
+      nextFloat,
+      nextDouble...
+      these make sure you are handling the right data types!
+      */
+
+
+      if(userInput.hasNextLine()){
+        // if the user actually entered a string(hasNextLine)? If so, do this...
+        this.setName(userInput.nextLine())
+      }
   }
 
   // this is how to execute the code above. This gets called first. You can run this on the command line:
