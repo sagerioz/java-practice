@@ -1,5 +1,9 @@
-# java-practice notes
+# java notes
 ##ECLIPSE - most widely used Integrated Dev Environment(IDE) for Java
+
+###Java language is known to be flexible, scalable, and maintainable.
+
+
 ```
 // comment
 /* multi-line comments */
